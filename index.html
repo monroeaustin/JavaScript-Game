@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+
+     <div class="userscoreboard">
+        <h1>USER SCORE</h1>
+        <p class="userScoreDisp"></p>
+     </div>
+
+
+<div class="wrapper">
+     <div class="btn-container">
+        <input type="button" value="Rock" class="btn" id="rock">
+        <input type="button" value="Paper" class="btn"  id="paper">
+        <input type="button" value="Scissors" class="btn" id="scissors" >
+
+        <div class="output">
+        </div>
+     </div>
+ </div>
     
+    
+     <div class="cpuscoreboard">
+        <h1>CPU SCORE</h1> 
+        <p class="computerScoreDisp"></p>
+
+     </div>
 </body>
 </html>
